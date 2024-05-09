@@ -1,2 +1,2 @@
 # ZeroBlunders-
-Machine Learning toolbox for AI with c++
+Machine Learning toolbox with c++
