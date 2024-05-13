@@ -4,17 +4,19 @@
 #include <vector>
 #include <unordered_map>
 
+using namespace std;
+
 #include "gnuplot-iostream.h"
 
 void GenerateFrequencyTable(const std::string& input_file, size_t column_index, const std::string& output_file) {
-    std::ifstream input(input_file);
-    std::ofstream output(output_file);
+    ifstream input(input_file);
+    ofstream output(output_file);
 
-    std::unordered_map<std::string, int> frequency_table;
+    unordered_map<std::string, int> frequency_table;
 
-    std::string line;
+    string line;
     while (std::getline(input, line)) {
-        std::stringstream ss(line);
+        stringstream ss(line);
         std::string cell;
         size_t col_index = 0;
         while (std::getline(ss, cell, ',')) {
