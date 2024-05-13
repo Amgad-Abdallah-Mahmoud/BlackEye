@@ -33,7 +33,7 @@
 //    fin.close();
 //    fout.close();
 //}
-//
+
 //int main() {
 //    string inputFile = "titanic_dropped_cols.csv"; // Change this to your input CSV file
 //    string outputFile = "output.csv"; // Change this to your desired output CSV file
